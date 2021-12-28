@@ -3,9 +3,9 @@ import skillsImage from '../images/one.jpg'
 
 export default function Skills() {
 	return (
-		<section className='skill-section'>
+		<div className='skill-section'>
 			<h1 className='skill-heading'>Skills</h1>
-			<div className='skill-container'>
+			<div className='skills-container'>
 				<div className='skill-card'>
 					<img className='skill-image' src={skillsImage} alt='skill' />
 					<div className='skill-level'></div>
@@ -62,6 +62,6 @@ export default function Skills() {
 					</p>
 				</div>
 			</div>
-		</section>
+		</div>
 	)
 }

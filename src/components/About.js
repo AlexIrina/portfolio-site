@@ -2,6 +2,7 @@ import React from 'react'
 import heroImg from '../images/me.jpeg'
 
 import Skills from './Skills'
+import Timeline from './Timeline'
 
 export default function About() {
 	return (
@@ -22,6 +23,7 @@ export default function About() {
 				</p>
 			</div>
 			<Skills />
+			<Timeline />
 		</section>
 	)
 }
