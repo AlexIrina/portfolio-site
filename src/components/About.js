@@ -1,6 +1,8 @@
 import React from 'react'
 import heroImg from '../images/me.jpeg'
 
+import Skills from './Skills'
+
 export default function About() {
 	return (
 		<section className='about-section active'>
@@ -19,6 +21,7 @@ export default function About() {
 					Magni ab deleniti dolores atque voluptatum fugit facilis.
 				</p>
 			</div>
+			<Skills />
 		</section>
 	)
 }
